@@ -1,0 +1,8 @@
+Contenidos del informe:
+•	Descripción general del proyecto
+•	Diagrama de la aplicación
+•	Entorno de desarrollo utilizado (framework)
+•	Guía paso a paso con capturas de pantalla de la implementación de los servicios:
+o	VPC, RDS, EC2, Docker entre otros 
+•	Capturas de pantalla de la aplicación en funcionamiento
+•	Conclusiones
