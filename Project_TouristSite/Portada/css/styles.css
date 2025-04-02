@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    background-color: #006bb3;
+    background-color: #0484da;
     position: sticky;   
     color: white;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar {
-    background: #92d3b2;
+    background: lightblue;
     padding: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     position: static;
@@ -68,11 +68,12 @@ body {
     margin-right: 20px;
     margin-bottom: 100px;
     margin-top: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-        "item1 item1 item1"
-        "item2 item3 item4"
-        "item5 item5 item5";
+        "item1 item1 item1 item1 item1"
+        "item2 item3 item4 item5 item6"
+        "item7 item7 item7 item7 item7";
+        
     grid-auto-rows: auto;
 }
 
@@ -81,6 +82,9 @@ body {
 .item:nth-child(3) { grid-area: item3; }
 .item:nth-child(4) { grid-area: item4; }
 .item:nth-child(5) { grid-area: item5; }
+.item:nth-child(6) { grid-area: item6; }
+.item:nth-child(7) { grid-area: item7; }
+
 
 .item {
     background-color: #ffffff;
@@ -94,7 +98,7 @@ body {
     background-color: #006bb3;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0.5%;
     width: 100%;
     position: fixed;
     bottom: 0;
