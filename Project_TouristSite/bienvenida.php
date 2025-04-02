@@ -29,8 +29,8 @@
     <header>
         <nav>
             <a href="bienvenida.php">Inicio</a>
-            <a href="/Proyecto1_Energia/Portada/portafolio.html">Portafolio</a>
-            <a href="/Proyecto1_Energia/Calculadora/calculadora.html">Calculadora</a>
+            <a href="/Project_TouristSite/Portada/portafolio.html">Portafolio</a>
+            <a href="/Project_TouristSite/Europa/Europa.html">Europa</a>
             <a href="/Proyecto1_Energia/Encuesta/encuesta.html">Encuesta</a>
             <a href="php/cerrar_sesion.php">Cerrar sesión</a>
         </nav>
